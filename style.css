@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: space-around;
   height: 40px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   padding-top: 10px;
 }
@@ -124,6 +124,7 @@ body {
 .subtitle-goods{
   background: linear-gradient(90deg, #e933ff, #ff3333, #334dff, #e933ff);
   background-size: 200% auto;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textflow 5s linear infinite;
