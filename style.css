@@ -122,12 +122,18 @@ body {
   width: 230px;
 }
 .subtitle-goods{
+  margin-block-start: 3px;
+  margin-block-end: 3px;
+}
+.name-color{
   background: linear-gradient(90deg, #e933ff, #ff3333, #334dff, #e933ff);
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textflow 5s linear infinite;
-  margin-block-start: 3px;
-  margin-block-end: 3px;
+}
+.main{
+  padding-left: 5px;
+  padding-right: 5px;
 }
